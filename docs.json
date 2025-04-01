@@ -31,26 +31,26 @@
               "essentials/navigation",
               "essentials/reusable-snippets"
             ]
-          }
+          },
           {
             "group": "User Guides",
             "pages": [
               {
                 "group": "Admin",
-                "pages": [],
+                "pages": []
               },
               {
                 "group": "Client",
-                "pages": [],
-              }
+                "pages": []
+              },
               {
                 "group": "Talent",
-                "pages": [],
+                "pages": []
               }
             ]
           }
         ]
-      },
+      }
     ],
     "global": {
       "anchors": [
