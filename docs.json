@@ -14,7 +14,7 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Concepts",
             "pages": [
               "introduction",
               "quickstart",
@@ -22,7 +22,7 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Setup",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -32,28 +32,26 @@
               "essentials/reusable-snippets"
             ]
           }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
           {
-            "group": "API Documentation",
+            "group": "User Guides",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              {
+                "group": "Admin",
+                "pages": [],
+              },
+              {
+                "group": "Client",
+                "pages": [],
+              }
+              {
+                "group": "Talent",
+                "pages": [],
+              },
+
             ]
           }
         ]
-      }
+      },
     ],
     "global": {
       "anchors": [
@@ -76,8 +74,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "https://cdn.graphite.com/assets/common-images/logos/graphiteLogoLight.png",
+    "dark": "https://cdn.graphite.com/assets/common-images/logos/graphiteLogoDark.png"
   },
   "navbar": {
     "links": [
