@@ -1,20 +1,20 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "GraphiteOS Starter Kit",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://app.graphite.com/favicon.ico",
   "navigation": {
     "tabs": [
       {
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Concepts",
             "pages": [
               "introduction",
               "quickstart",
@@ -22,7 +22,7 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Setup",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -32,71 +32,56 @@
               "essentials/reusable-snippets"
             ]
           }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
           {
-            "group": "API Documentation",
+            "group": "User Guides",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              {
+                "group": "Admin",
+                "pages": [],
+              },
+              {
+                "group": "Client",
+                "pages": [],
+              }
+              {
+                "group": "Talent",
+                "pages": [],
+              }
             ]
           }
         ]
-      }
+      },
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "anchor": "About GraphiteOS",
+          "href": "https://www.graphite.com/who-we-serve/graphite-os",
           "icon": "newspaper"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "https://cdn.graphite.com/assets/common-images/logos/graphiteLogoLight.png",
+    "dark": "https://cdn.graphite.com/assets/common-images/logos/graphiteLogoDark.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:help@graphite.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "GraphiteOS Home",
+      "href": "https://www.graphite.com/who-we-serve/graphite-os"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "linkedin": "https://www.linkedin.com/company/graphitesolutions"
     }
   }
 }
