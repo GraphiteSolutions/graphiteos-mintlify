@@ -1,0 +1,128 @@
+---
+title: "Profile Creation for Talent Users"
+description: "Description of your new file."
+---
+
+# Profile Creation for Talent User
+
+In GraphiteOS, Talent users—also referred to as candidates—can self-sign up directly from the website. However, their profiles must be approved by an admin before they can access projects.
+
+## Self Sign-Up
+
+1. Access the URL - [https://www.graphite.com/](https://www.graphite.com/). The landing page is displayed with multiple call-to-actions, including **Login**, **Request a Call**, and **Join as an Independent Expert**.
+
+2. Click **Join as an Independent Expert**.
+
+3. Enter your **Email address** and **Password** according to the displayed criteria.
+
+4. Once the password meets the criteria, the **Save & Continue** button becomes enabled. Click **Save & Continue**.
+
+5. On the next screen, select your preferred availability: **Full-time**, **Part-time**, or **In between jobs**.
+
+6. Click **Save & Continue**. The **Import Profile Data** page is displayed.
+
+7. On the Import Profile Data page, upload your resume in **PDF format** (max size: **2 MB**).
+
+8. Click **Save & Continue**. You will see a message:  
+
+   \> "Analyzing your data to complete your profile."
+
+9. The system parses your resume and auto-fills key profile fields.
+
+10. Review the pre-filled fields and complete any missing information manually.
+
+11. Submit your application to join the network. Your status will show as **Pending Approval**.
+
+### What Happens Next
+
+| Trigger                         | System Action                                          | Email Notification                        |
+
+|---------------------------------|--------------------------------------------------------|-------------------------------------------|
+
+| Candidate submits application   | Candidate profile appears in the Admin Approvals Queue | "Thank you for applying" confirmation email |
+
+| Admin reviews and activates the candidate | Candidate status changes from Pending to Active | "Welcome to the network" email with next steps |
+
+| Admin uses the Act As feature   | Admin can simulate what the candidate sees             | No email notification                     |
+
+| Candidate logs in after activation | Gains access to view and apply for open projects     | No email notification                     |
+
+| Projects                        | Agency can invite candidates to apply                  | "You've been invited to apply" email      |
+
+---
+
+# Admin: Adding a New Talent
+
+In the **GraphiteOS Admin Console**, an agency admin has two options to create a new candidate:
+
+- **Invite Active Candidate**
+
+- **Import Passive Candidate**
+
+## Option 1: Invite Candidate (Active Candidate)
+
+Use the **Invite Candidate** flow to add candidates with **Active** status.
+
+### To invite an active candidate:
+
+1. From the **Admin Console**, click **Create New Candidate \> Invite Candidate**.
+
+2. The **Invite New Candidate to Join** dialog box is displayed.
+
+3. Enter the candidate’s **First Name**, **Last Name**, and **Email Address**.
+
+4. The **Message** textbox contains a pre-filled message, which you can customize as needed.
+
+5. Click **Send Invite**.
+
+6. A pop-up message appears at the top of the page:  
+
+   \> "Successfully sent expert invite to \<candidate’s email address\>."
+
+The candidate can use the URL in the email to access the GraphiteOS platform.
+
+### What Happens Next
+
+| Action                   | System Action                                        | Email Notification                      |
+
+|--------------------------|------------------------------------------------------|-----------------------------------------|
+
+| Invite is sent           | Candidate receives email with a "Join Now" link     | "You've been invited to join Graphite"  |
+
+| Candidate signs up       | Candidate fills out profile and enters Pending Approval state | "Thanks for applying"           |
+
+| Admin approves the candidate | Candidate is admitted to the network and gains full access | "Welcome to the network"         |
+
+---
+
+## Option 2: Import Passive Candidate
+
+Use the **Import Candidate** flow to create a candidate profile using their resume, without requiring immediate participation from them. This is ideal when sourcing or proactively building a pipeline.
+
+\> **Note:** Use this option only if you have **explicit consent** from the candidate.
+
+### To import a passive candidate:
+
+1. From the **Admin Console**, click **Create New Candidate \> Invite Candidate**. Two options are displayed.
+
+2. Select **Import Candidate**. The **Import Passive Candidate** dialog box is displayed.
+
+3. Enter the **Email Address**.
+
+4. Drag and drop or upload the resume in **PDF format** (Max size: **2 MB**).
+
+5. Click **Import**. A popup message is displayed:  
+
+   \> "Successfully imported the user with \<email address\>"
+
+### What Happens Next
+
+| Action               | System Action                                    | Email Notification                          |
+
+|----------------------|--------------------------------------------------|---------------------------------------------|
+
+| Resume is uploaded   | System parses resume and generates a draft profile | No email                                    |
+
+| Candidate is visible to Admins | Candidate remains inactive until reviewed and activated | No email                            |
+
+| Admin activates the candidate | Candidate becomes part of the active network | "Welcome to the network" (if triggered)     |
